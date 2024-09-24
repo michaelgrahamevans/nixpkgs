@@ -1,0 +1,13 @@
+diff --git a/meson.build b/meson.build
+index 6cd3280..eb29064 100644
+--- a/meson.build
++++ b/meson.build
+@@ -66,7 +66,7 @@ executable(
+     dependency('glib-2.0', version: '>=2.82.0'),
+     dependency('gtk4', version: '>=4.16.1'),
+     dependency('libadwaita-1', version: '>=1.6.0'),
+-    dependency('libportal', version: '>=0.8.1'),
++    dependency('libportal', version: '>=0.7.1'),
+   ],
+   c_args: c_args, vala_args: vala_args,
+   install: true
